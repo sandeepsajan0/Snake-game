@@ -41,8 +41,8 @@ def Pause():
 					quit()
 		gameDisplay.fill(white)
 		gameDisplay.blit(pause_image,[280,35])
-		message_to_screen("Paused",red,0,'L')
-		message_to_screen("Press r for Resume and q for Quit",red,70,'s')
+		message_to_screen("Paused",red,20,'L')
+		message_to_screen("Press r for Resume and q for Quit",red,90,'s')
 		pygame.display.update()
 
 
@@ -138,13 +138,16 @@ def gameloop():
 	randappleX = round(random.randrange(0, display_width-block_size)/10.0)*10.0
 	randappleY = round(random.randrange(0, display_height-block_size)/10.0)*10.0
 	while not gameExit:
-		while gameOver == True:
-			#gameDisplay.blit(background_image, [0, 0])
-			gameDisplay.fill(sky_blue)
+		if gameOver == True:
 			message_to_screen("Game over",red,-200,'L')
 			message_to_screen("Press p for Play again!",black,-100,'s')
 			message_to_screen("Press q for Quit!",black,-50,'s')
 			message_to_screen("Press h for Home!",black,0,'s')
+			pygame.display.update()
+		while gameOver == True:
+			#gameDisplay.blit(background_image, [0, 0])
+			#gameDisplay.fill(sky_blue)
+			
 			pygame.display.update()
 			for event in pygame.event.get():
 				if event.type == pygame.QUIT:
