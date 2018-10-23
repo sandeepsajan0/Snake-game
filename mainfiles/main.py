@@ -1,5 +1,8 @@
 import pygame
 import random
+import os
+
+os.chdir('mainfiles')
 
 pygame.init()
 display_width = 800
@@ -16,7 +19,6 @@ sky_blue = (135, 206, 250)
 block_size = 10
 
 clock = pygame.time.Clock()
-
 FPS = 18
 background_image = pygame.image.load("snake.png")
 pause_image = pygame.image.load("pause.jpg")
