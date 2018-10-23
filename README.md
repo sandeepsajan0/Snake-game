@@ -28,30 +28,30 @@ python main.py
 After running the Python file you will see the opening screen, with some basic
 instructions on how to play the game.
 
-![Opening Screen](welcome_screen.png)
+![Opening Screen](screenshots/welcome_screen.png)
 
 If you press "s" to view the shortcuts, you will be greeted with the following
 screen:
 
-![Shortcuts](shortcuts.png)
+![Shortcuts](screenshots/shortcuts.png)
 
 Press "e" or "h" to get back to the main screen and press "p" to play the game,
 where you will see something similar to the following:
 
-![Initial Game](initial_game.png)
+![Initial Game](screenshots/initial_game.png)
 
 Your character, the snake, is the green dot. Your objective is to each the apples,
 which are the red dots. You move using the arrows keys. Your score is in the
 upper left corner of the screen, and represents how many apples you have eaten
 in this round.
 
-![Playing](playing.png)
+![Playing](screenshots/playing.png)
 
 As you eat more apples your snake gets longer and longer, making it more difficult
 to navigate around the game area. If you eat yourself or eat a wall you will get
 a game over screen, and your round is over.
 
-![Game Over](game_over.png)
+![Game Over](screenshots/game_over.png)
 
 Once you get a game over you can play again, quit entirely, or go back to the
 home screen.
