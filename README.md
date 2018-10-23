@@ -1,24 +1,27 @@
 # Snake-game
-A simple snake game written in [Python 2.7](https://www.python.org/download/releases/2.7/)
+A simple snake game written in [Python 3.7.1](https://www.python.org/downloads/release/python-371/)
 which uses [pygame](https://www.pygame.org/news) as the renderer.
 
 ## How To Play
 
-It is simple to get started and play. First, install the dependencies and then
-run the main file.
+It is simple to get started and play. First, install the dependencies:
+```
+pip3 install -r requirements.txt
+```
+ and then run the main file.
 
 ### Installation
 
-*Note:* You must have [installed Python2.7](https://www.python.org/downloads/).
+*Note:* You must have [installed Python3.7.1](https://www.python.org/downloads/).
 
-How to install pygame. Open a command line and type: `pip install pygame`.
+How to install pygame. Open a command line and type: `pip3 install pygame`.
 
 ### Use or Play
 
 Open a command line and run the main Python module:
 
 ```
-cd mainfiles
+cd src
 python main.py
 ```
 
