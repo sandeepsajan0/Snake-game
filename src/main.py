@@ -1,5 +1,8 @@
 import pygame
 import random
+import os
+
+os.chdir('src')
 
 #from static.colors import white, red, black, green
 
@@ -16,7 +19,6 @@ pygame.display.set_caption('Snake Game')
 block_size = 10
 
 clock = pygame.time.Clock()
-
 FPS = 18
 background_image = pygame.image.load("static/snake.png")
 pause_image = pygame.image.load("static/pause.jpg")
