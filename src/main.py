@@ -1,7 +1,12 @@
 import pygame
 import random
 
-from static.colors import white, red, black, green
+#from static.colors import white, red, black, green
+
+white = (255, 255, 255)
+black = (0, 0, 0)
+red = (255, 0, 0)
+green = (0, 155, 0)
 
 pygame.init()
 display_width = 800
@@ -41,7 +46,7 @@ def pause():
 
 
 def update_score(score):
-    text = font.render(f"SCORE:{score}", True, black)
+    text = font.render("SCORE:{score}", True, black)
     gameDisplay.blit(text, [0, 0])
 
 
