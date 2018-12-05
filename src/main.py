@@ -2,7 +2,7 @@ import pygame
 import random
 import os
 
-os.chdir('mainfiles')
+os.chdir('src')
 
 #from static.colors import white, red, black, green
 
