@@ -2,7 +2,7 @@ import pygame
 import random
 import os
 
-os.chdir('src')
+# os.chdir('src')
 
 #from static.colors import white, red, black, green
 
@@ -48,7 +48,7 @@ def pause():
 
 
 def update_score(score):
-    text = font.render("SCORE:{score}", True, black)
+    text = font.render(f"SCORE:{score}", True, black)
     gameDisplay.blit(text, [0, 0])
 
 
